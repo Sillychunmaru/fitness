@@ -253,7 +253,7 @@ aside {
 }
 
 .grid-item4 {
-		grid-colum: 1 / span 3;
+		grid-column: 1 / span 3;
 }
 
 #exercises {
