@@ -177,6 +177,80 @@ article:nth-of-type(2) {
 	width: 95%;
 	height: 50%;
 }
+
+#form {
+	margin-top: 2%;
+	background-color: #f2f2f2;
+	padding: 2%;
+}
+
+#form h2 {
+	text-align: center;
+}
+
+/* Style Rules for form elements*/
+
+fieldset, input, select, textarea {
+	margin-bottom: 2%;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.25em
+}
+
+label {
+	display: block;
+	padding-top: 3%;
+}
+
+form #submit {
+	margin: 0 auto;
+	border: none;
+	display: block;
+	padding: 2%;
+	background-color: #b3b3b3;
+	font-size: 1em;
+	border-radius: 10px;
+}
+
+/* Tablet Viewport: Style rules for table  */
+
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+
+caption {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 1%;
+}
+
+th, td {
+	border: 1px solid #000;
+	padding: 2%;
+}
+
+th {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+	background-color: #ccc;
+}
+
+/* Tablet Viewport: Style rule for form element */
+
+form {
+	width: 70%;
+	margin: 0 auto;
+}
+
 /* Style rules for footer content */
 footer p {
 		font-size: 0.75em;
@@ -342,7 +416,7 @@ article h3 {
 }
 	
 .frame {
-	opacity: 0.9em;
+	opacity: 0.9;
 }
 
 .frame:hover {
@@ -359,7 +433,21 @@ article h3 {
 	#exercses {
 	clear: left;
 }
+/* Destktop Viewport: Style rules for form elements */
 
+form {
+	width: auto;
+}
+
+.form-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px
+}
+
+.btn {
+	grid-column: 1 / span 3;
+}
 }
 
 /* media query for large desktop viewports */
@@ -370,7 +458,13 @@ article h3 {
 		margin: 0 auto;
 }
 
+table {
+	width: 80%;
 }
+
+}
+
+
 
 /* media query for print */
 
