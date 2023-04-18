@@ -15,7 +15,7 @@ body {
 	background-color: #000;
 }
 
-img {
+img, video {
 	max-width: 100%;
 	display: block;
 }
