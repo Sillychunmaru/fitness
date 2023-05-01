@@ -23,6 +23,21 @@
 	
 	<div id="container">
 	
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+			<div id="menu-links">
+			<a href="index.html">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="classes.html">Classes</a>
+			<a href="nutrition.html">Nutrition</a>
+			<a href="contact.html">Contact Us</a>
+		</div>
+		
+		<a class="menu-icon" onclick="hamburger()">
+			<div>&#9776;</div>
+		</a>
+	</nav>	
+	
 	<!-- Use the header area for the website name or logo -->
 	
 	<header>
@@ -33,7 +48,7 @@
 	
 	<!-- Use the nav area to add hyperlinks to other pages within the website -->
 	
-	<nav>
+	<nav class="tablet-desktop">
 		
 		<ul>
 			<li><a href="index.html">Home</a></li> 
@@ -151,7 +166,7 @@
 		
 			<audio controls>
 	
-			<source src="media/ffc_audio.mp3" type="audio/mp3"> 
+			<source src="media/ffc_audio.mp3" type="audio/mp3">
 	
 			<source src="media/ffc_audio.ogg" type="audio/ogg">
 	
@@ -172,6 +187,8 @@
 	</footer>
 	
 	</div>
+	
+	<script src="scripts/script.js"></script>
 	
 </body>
 
